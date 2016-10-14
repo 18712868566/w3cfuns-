@@ -1,0 +1,16 @@
+
+
+熟练掌握 HTML、Javascript、CSS;
+
+
+掌握LANMP开发环境配置，熟悉至少一种PHP应用框架，如CodeIgniter、Yii、ThinkPHP;
+
+
+熟悉 PHP 面向对象思想，会使用各种缓存技术对网站性能进行优化；
+
+
+
+熟悉标准 SQL 和数据库设计，具备 MySQL 数据库设计及性能优化经验;
+
+
+熟悉 XHTML、XML、JSON等接口开发；

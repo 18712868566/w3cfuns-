@@ -1,0 +1,22 @@
+//连接数据库；
+	$con = mysql_connect("localhost","root","root");
+	if($con){
+		print("连接成功");
+	}else{
+		print("连接失败");
+	}
+	//选择数据库
+	mysql_select_db("user", $con);
+	//查询
+	$sql = 'SELECT id,name, 
+               password
+        FROM enroll';
+	$retval = mysql_query( $sql, $con );
+	//打印查询结果
+	while($row = mysql_fetch_array($retval))
+  {
+  echo $row['id'] . " </br>" . $row['name']."</br>".$row["password"];
+  echo "<br />";
+  }
+//关闭数据库
+mysql_close($con);
